@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="pl">
 <head>
 <!-- Document Meta
 ============================================= -->
@@ -21,6 +21,8 @@
 <link href="assets/css/cons.css" rel="stylesheet">
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
+
+<script src="assets/js/googlemap.js"></script>
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 <!--[if lt IE 9]>
@@ -46,7 +48,7 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Przełącz nawigację</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -89,9 +91,9 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="hero--content">
-                        <h1 class="hero--headline">We’re Building Your Future</h1>
-                        <p class="hero--bio">Take a step towards the future of construction with Cobuild</p>
-                        <a href="#" class="btn btn--primary btn--rounded">Get A Quote</a>
+                        <h1 class="hero--headline">Budujemy Twoją przyszłość</h1>
+                        <p class="hero--bio">Wykonaj krok w kierunku swoich marzeń razem z naszą firmą</p>
+                        <!-- <a href="#" class="btn btn--primary btn--rounded">Get A Quote</a> -->
                     </div>
                 </div>
                 <!-- .col-md-10 end -->
@@ -109,8 +111,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                 <div class="heading mb-70">
-                    <h2 class="heading--title">Our Services</h2>
-                    <p class="heading--subtitle">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+                    <h2 class="heading--title">Nasze usługi</h2>
+                    <p class="heading--subtitle">Firma Pawła Piechowskiego specjalizuje się w budowaniu domów od podstaw do stanu surowego. Zakres usług jest szeroki i obejmuje między innymi:</p>
                 </div>
             </div>
         </div>
@@ -123,8 +125,8 @@
                         <i class="flaticon-excavator"></i>
                     </div>
                     <div class="feature--content">
-                        <h3>Fast Operations</h3>
-                        <p>Cobuild impresses you with fully responsiveness and highly customization. </p>
+                        <h3>Roboty ziemne</h3>
+                        <p>Przygotowanie terenu pod budowę domu lub hali. Wykopy fundamentowe z wykorzystaniem specjalistycznego sprzętu.</p>
                     </div>
                 </div>
                 <!-- .feature-panel end -->
@@ -138,8 +140,8 @@
                         <i class="flaticon-crane"></i>
                     </div>
                     <div class="feature--content">
-                        <h3>Renovation</h3>
-                        <p>Cobuild impresses you with fully responsiveness and highly customization. </p>
+                        <h3>Niwelacje terenu</h3>
+                        <p>Niwelowanie lub skarpowanie terenu wokół stawianej budowli. Wykonujemy zarówno zdjęcie warstwy wierzchniej jak i dowiezienie ziemi.</p>
                     </div>
                 </div>
                 <!-- .feature-panel end -->
@@ -153,8 +155,8 @@
                         <i class="flaticon-helmet"></i>
                     </div>
                     <div class="feature--content">
-                        <h3>Consultation</h3>
-                        <p>Cobuild impresses you with fully responsiveness and highly customization. </p>
+                        <h3>Prace żelbetowe</h3>
+                        <p>Wykonujemy wszelkie prace żelbetowe, takie jak: fundamenty, stropy, ściany, słupy, belki, balkony, tarasy, podjazdy, rampy czy też podciągi. Zapytaj nas o szczegóły !</p>
                     </div>
                 </div>
                 <!-- .feature-panel end -->
@@ -168,8 +170,8 @@
                         <i class="flaticon-skyline"></i>
                     </div>
                     <div class="feature--content">
-                        <h3>Architecture</h3>
-                        <p>Cobuild impresses you with fully responsiveness and highly customization. </p>
+                        <h3>stany surowe</h3>
+                        <p>Wszelkie prace prowadzące do wykonania stanu surowego otwartego. Położenie fundamentów, postawienie ścian nośnych oraz ułożenie stropów. Przygotowujemy również obiekty pod konstrukcje dachowe.</p>
                     </div>
                 </div>
                 <!-- .feature-panel end -->
@@ -189,8 +191,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                 <div class="heading text-center mb-70">
-                    <h2 class="heading--title">Featured Work</h2>
-                    <p class="heading--desc">Duis aute irure dolor in reprehenderit volupte velit esse cillum fugiat pariature occaecat cupidatat proident culpa.</p>
+                    <h2 class="heading--title">Realizacje</h2>
+                    <p class="heading--desc">Przedstawiamy niektóre z prac które zrealizowaliśmy na przestrzeni ostatnich lat</p>
                 </div>
             </div>
             <!-- .col-md-6 end -->
@@ -201,10 +203,10 @@
 			============================================= -->
 			<div class="col-xs-12 col-sm-12 col-md-12 portfolio-filter">
 				<ul class="list-inline">
-					<li><a class="active-filter" href="#" data-filter="*">All</a></li> 
-					<li><a href="#" data-filter=".filter-building">Building</a></li>   
-					<li><a href="#" data-filter=".filter-construction">Construction</a></li>
-					<li><a href="#" data-filter=".filter-planning">Planning</a></li>
+					<li><a class="active-filter" href="#" data-filter="*">Wszystkie</a></li> 
+					<li><a href="#" data-filter=".filter-building">Stany surowe</a></li>   
+					<li><a href="#" data-filter=".filter-construction">Konstrukcje żelbetowe</a></li>
+					<li><a href="#" data-filter=".filter-planning">Remonty</a></li>
 				</ul>
 			</div>
 			<!-- .projects-filter end --> 
@@ -320,8 +322,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-5">
                  <div class="heading mb-30">
-                    <h2 class="heading--title">We are expert in this field since almost 20 years.</h2>
-                    <p class="heading--desc">Proin gravida nibh vel velit auctor aliquet aenean sollicitudin, lorem quis bibendum auctor, nisi elit cuat ipsum, nec sagittis sem nibh id elit duis sed odio sit nibh vulputate cursus a sit amet mauris morbi accumsan.</p>
+                    <h2 class="heading--title">Jesteśmy ekspertami w naszej dziedzinie już od ponad 20 lat</h2>
+                    <p class="heading--desc">Naszym atutem w kontaktach z klientami są elastyczność i ogromna wiedza, które w połączeniu z przyjazną atmosferą są kluczem do sukcesu. Kompleksowa obsługa klienta na każdym etapie zagwarantuje sukces każdej inwestycji.</p>
                 </div>
             </div>
             <!-- .col-md-6 end -->
@@ -329,7 +331,7 @@
  				<!-- Progressbar #1 -->
 				<div class="progressbar">
 					<div class="progress-title">
-						<span class="title">Buildings</span>
+						<span class="title">Roboty Ziemne</span>
 						<span class="value">85%</span>
 					</div>
 					<div class="progress">
@@ -341,11 +343,11 @@
 				<!-- Progressbar #2 -->
 				<div class="progressbar">
 					<div class="progress-title">
-						<span class="title">Architecture</span>
-						<span class="value">60%</span>
+						<span class="title">Niwelacje Terenu</span>
+						<span class="value">70%</span>
 					</div>
 					<div class="progress">
-						<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
 						</div>
 					</div>
 				</div><!-- .progressbar end -->
@@ -353,11 +355,11 @@
 				<!-- Progressbar #3 -->
 				<div class="progressbar">
 					<div class="progress-title">
-						<span class="title">Constructions</span>
-						<span class="value">70%</span>
+						<span class="title">Prace Żelbetowe</span>
+						<span class="value">75%</span>
 					</div>
 					<div class="progress">
-						<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+						<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
 						</div>
 					</div>
 				</div><!-- .progressbar end -->				
@@ -365,11 +367,11 @@
 				<!-- Progressbar #3 -->
 				<div class="progressbar">
 					<div class="progress-title">
-						<span class="title">Planning</span>
-						<span class="value">40%</span>
+						<span class="title">Stany surowe</span>
+						<span class="value">90%</span>
 					</div>
 					<div class="progress">
-						<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+						<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
 						</div>
 					</div>
 				</div><!-- .progressbar end -->
@@ -388,12 +390,12 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="pull-left text-left">
-                    <h3>An innovative company working with the latest technologies</h3>
+                <div class="text-center">
+                    <h3>Innowacyjna firma korzystająca z nowoczesnych technologii</h3>
                 </div>
-                <div class="pull-right text-right">
+                <!-- <div class="pull-right text-right">
                     <a class="btn btn--white btn--bordered btn--rounded" href="#">Get A Quote</a>
-                </div>
+                </div> -->
             </div>
             <!-- .col-md-8 end -->
         </div>
@@ -409,7 +411,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                 <div class="heading text-center mb-70">
-                    <h2 class="heading--title">Our Clients Say</h2>
+                    <h2 class="heading--title">Opinie klientów</h2>
                     <p class="heading--desc">Duis aute irure dolor in reprehenderit volupte velit esse cillum fugiat pariature occaecat cupidatat proident culpa.</p>
                 </div>
             </div>
@@ -461,15 +463,22 @@
 <!-- Google Maps
 ============================================= -->
 <section id="map" class="section google-maps pb-0 pt-0">
+    
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12  col-sm-12  col-md-12 pr-0 pl-0">
-				<script src="https://maps.google.com/maps/api/js?sensor=true&amp;key=AIzaSyASz66Ov8MBftUkdm84V9bRUrfim68QLew"></script>
-                <div id="googleMap" class="googleMap" data-map-address="121 King St,Melbourne, Australia" data-map-zoom="12" data-map-type="ROADMAP" data-map-info="Enormous Company<br>info@zytheme.com" style="width:100%;height:370px;">
+                <!-- <script src="https://maps.google.com/maps/api/js?&amp;key=AIzaSyASz66Ov8MBftUkdm84V9bRUrfim68QLew"></script> -->
+
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASz66Ov8MBftUkdm84V9bRUrfim68QLew&callback=initMap">
+                </script>
+
+                <div id="googleMap" class="googleMap" style="width:100%;height:370px;">
                 </div>
 			</div>
 		</div>
-	</div>
+    </div>
+
 </section>
 <!-- .google-maps end -->
 
@@ -479,31 +488,43 @@
     <div class="footer-widget">
         <div class="container">
             <div class="row widget--boxes text-center">
-                <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="col-xs-12 col-sm-3 col-md-3">
                     <div class="widget--info-box">
                         <i class="ti-home"></i>
-                        <h4>Address</h4>
-                        <p>220 Petersham town, Wardell<br>street, Australia PA 6550. </p>
+                        <h4>Adres</h4>
+                        <p>ul. Sadowa 34<br>87-100 Toruń</p>
                     </div>
                     <!-- .widget-info-box end -->
                 </div>
                 <!-- .col-md-4 end -->
-                <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="col-xs-12 col-sm-3 col-md-3">
                     <div class="widget--info-box">
-                        <i class="ti-mobile"></i>
-                        <h4>Phone</h4>
-                        <p>Phone: (04) 491 570 110</p>
-                        <p>Fax: +04 642 021 332</p>
+                        <a href="tel:608208238">
+                            <i class="ti-mobile"></i>
+                            <h4>Telefon</h4>
+                            <p>608-208-238</p>
+                        </a>
                     </div>
                     <!-- .widget-info-box end -->
                 </div>
                 <!-- .col-md-4 end -->
-                <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="col-xs-12 col-sm-3 col-md-3">
                     <div class="widget--info-box">
-                        <i class="ti-email"></i>
-                        <h4>Email</h4>
-                        <p>support@zytheme.com</p>
-                        <p>Twitter: @zytheme</p>
+                        <a href="mailto:piech21@wp.pl">
+                            <i class="ti-email"></i>
+                            <h4>Email</h4>
+                            <p>piech21@wp.pl</p>
+                        </a>
+                    </div>
+                    <!-- .widget-info-box end -->
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="widget--info-box">
+                        <a href="https://www.facebook.com/piechowskitorun" target="blank">
+                            <i class="fa fa-facebook-f"></i>
+                            <h4>Facebook</h4>
+                            <p>Funpage</p>
+                        </a>
                     </div>
                     <!-- .widget-info-box end -->
                 </div>
@@ -526,7 +547,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="widget--social text-right text-center-xs">
                         <a class="facebook" href="#">
-                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook-f"></i>
                         </a>
                         <a class="twitter" href="#">
                             <i class="fa fa-twitter"></i>
@@ -557,6 +578,8 @@
 <script src="assets/js/jquery-2.2.4.min.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/functions.js"></script>
+
+
 </body>
 
 </html>

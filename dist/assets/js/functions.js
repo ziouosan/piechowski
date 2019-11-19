@@ -278,24 +278,24 @@
     }
   
 	/* ------------------ GOOGLE MAP ------------------ */
-	$(".googleMap").each(function() {
-		var $gmap = $(this);
-	$gmap.gMap({
-            address: $gmap.data('map-address'),
-            zoom: $gmap.data('map-zoom'),
-            maptype: $gmap.data('map-type'),
-            markers: [{
-                address: $gmap.data('map-address'),
-                maptype: $gmap.data('map-type'),
-				html: $gmap.data('map-info'),
-                icon: {
-                    image: "assets/images/gmap/maker.png",
-                    iconsize: [41, 54],
-                    iconanchor: [41, 54]
-                }
-            }]
-        });
+	// $(".googleMap").each(function() {
+	// 	var $gmap = $(this);
+	// $gmap.gMap({
+    //         address: $gmap.data('map-address'),
+    //         zoom: $gmap.data('map-zoom'),
+    //         maptype: $gmap.data('map-type'),
+    //         markers: [{
+    //             address: $gmap.data('map-address'),
+    //             maptype: $gmap.data('map-type'),
+	// 			html: $gmap.data('map-info'),
+    //             icon: {
+    //                 image: "assets/images/gmap/maker.png",
+    //                 iconsize: [41, 54],
+    //                 iconanchor: [41, 54]
+    //             }
+    //         }]
+    //     });
 		
-	});	
+	// });	
 	
 }(jQuery));
