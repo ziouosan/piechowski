@@ -1,569 +1,753 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="pl">
-
-<head>
+  <head>
     <!-- Document Meta
 ============================================= -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--IE Compatibility Meta-->
     <meta name="author" content="zytheme" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Wizytówka Firmy">
-    <link href="assets/images/favicon/favicon-16x16.png" rel="icon">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="Wizytówka Firmy" />
+    <link href="assets/images/favicon/favicon-16x16.png" rel="icon" />
 
     <!-- Fonts
 ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800%7CLora:400,400i,700,700i"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800%7CLora:400,400i,700,700i"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheets
 ============================================= -->
-    <link href="assets/css/external.css" rel="stylesheet">
-    <link href="assets/css/cons.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/external.css" rel="stylesheet" />
+    <link href="assets/css/cons.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
 
     <script src="assets/js/googlemap.js"></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
-<script src="assets/js/html5shiv.js"></script>
-<script src="assets/js/respond.min.js"></script>
-<![endif]-->
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 
     <!-- Document Title
 ============================================= -->
     <title>Usługi remontowo-budowlane. Paweł Piechowski</title>
-</head>
+  </head>
 
-<body class="body-scroll">
+  <body class="body-scroll">
     <!-- Document Wrapper
 ============================================= -->
     <div id="wrapper" class="wrapper clearfix">
-
-        <!-- Header
+      <!-- Header
 ============================================= -->
-        <header id="navbar-spy" class="header header-1 header-transparent header-fixed">
+      <header
+        id="navbar-spy"
+        class="header header-1 header-transparent header-fixed"
+      >
+        <nav id="primary-menu" class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#navbar-collapse-1"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Przełącz nawigację</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-            <nav id="primary-menu" class="navbar navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Przełącz nawigację</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-                        <a class="logo" href="#hero">
-        <img class="logo-dark" src="assets/images/logo/piechowski-logo.png" alt="Logo">
-        <img class="logo-light" src="assets/images/logo/piechowski-logo.png" alt="Logo">
-        </a>
-                    </div>
-                    <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-left nav-split nav-pos-right">
-                            <li class="active"><a data-scroll="scrollTo" href="#hero">Strona Główna</a>
-                            </li>
-                            <li><a data-scroll="scrollTo" href="#feature">Usługi</a>
-                            </li>
-                            <li><a data-scroll="scrollTo" href="#skills">Umiejętności</a>
-                            </li>
-                            <li><a data-scroll="scrollTo" href="#portfolio">Realizacje</a>
-                            </li>
-                            <li><a data-scroll="scrollTo" href="#testimonials">Referencje</a>
-                            </li>
-                            <li><a data-scroll="scrollTo" href="#map">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--/.nav-collapse -->
-                </div>
-            </nav>
-        </header>
-
-        <!-- Hero #12
-============================================= -->
-        <section id="hero" class="section hero hero-12 text-center bg-overlay bg-overlay-dark bg-parallax fullscreen">
-            <div class="bg-section">
-                <img src="assets/images/hero/2.jpg" alt="Background" />
+              <a class="logo" href="#hero">
+                <img
+                  class="logo-dark"
+                  src="assets/images/logo/piechowski-logo.png"
+                  alt="Logo"
+                />
+                <img
+                  class="logo-light"
+                  src="assets/images/logo/piechowski-logo.png"
+                  alt="Logo"
+                />
+              </a>
             </div>
-            <div class="pos-vertical-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="hero--content">
-                                <h1 class="hero--headline">Budujemy Twoją przyszłość</h1>
-                                <p class="hero--bio">Wykonaj krok w kierunku swoich marzeń razem z naszą firmą</p>
-                                <a href="tel:608208238" class="btn btn--primary btn--rounded">Zadzwoń: 608-208-238</a>
-                            </div>
-                        </div>
-                        <!-- .col-md-10 end -->
-                    </div>
-                    <!-- .row end -->
-                </div>
+            <div
+              class="collapse navbar-collapse pull-right"
+              id="navbar-collapse-1"
+            >
+              <ul class="nav navbar-nav navbar-left nav-split nav-pos-right">
+                <li class="active">
+                  <a data-scroll="scrollTo" href="#hero">Strona Główna</a>
+                </li>
+                <li><a data-scroll="scrollTo" href="#feature">Usługi</a></li>
+                <li>
+                  <a data-scroll="scrollTo" href="#skills">Umiejętności</a>
+                </li>
+                <li>
+                  <a data-scroll="scrollTo" href="#portfolio">Realizacje</a>
+                </li>
+                <li>
+                  <a data-scroll="scrollTo" href="#testimonials">Referencje</a>
+                </li>
+                <li><a data-scroll="scrollTo" href="#map">Kontakt</a></li>
+              </ul>
             </div>
-            <!-- .container end -->
-        </section>
-        <!-- #hero12 end -->
-        <!-- Feature #1 
+            <!--/.nav-collapse -->
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero #12
 ============================================= -->
-        <section id="feature" class="section feature feature-1 bg-white text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-                        <div class="heading mb-70">
-                            <h2 class="heading--title">Nasze usługi</h2>
-                            <p class="heading--subtitle">Nasza firma remontowo-budowlana specjalizuje się w budowaniu
-                                domów od podstaw do stanu surowego. Zakres usług jest szeroki i obejmuje między innymi:
-                            </p>
-                        </div>
-                    </div>
+      <section
+        id="hero"
+        class="section hero hero-12 text-center bg-overlay bg-overlay-dark bg-parallax fullscreen"
+      >
+        <div class="bg-section">
+          <img src="assets/images/hero/2.jpg" alt="Background" />
+        </div>
+        <div class="pos-vertical-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="hero--content">
+                  <h1 class="hero--headline">Budujemy Twoją przyszłość</h1>
+                  <p class="hero--bio">
+                    Wykonaj krok w kierunku swoich marzeń razem z naszą firmą
+                  </p>
+                  <a href="tel:608208238" class="btn btn--primary btn--rounded"
+                    >Zadzwoń: 608-208-238</a
+                  >
                 </div>
-                <!-- .row end -->
-                <div class="row">
-                    <!-- Panel #1 -->
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="feature-panel">
-                            <div class="feature--icon">
-                                <i class="flaticon-excavator"></i>
-                            </div>
-                            <div class="feature--content">
-                                <h3>Roboty ziemne</h3>
-                                <p>Przygotowanie terenu pod budowę domu lub hali. Wykopy fundamentowe z wykorzystaniem
-                                    specjalistycznego sprzętu. Niwelowanie lub skarpowanie terenu wokół stawianej
-                                    budowli. Wykonujemy zarówno zdjęcie warstwy wierzchniej jak i dowiezienie ziemi.</p>
-                            </div>
-                        </div>
-                        <!-- .feature-panel end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-
-                    <!-- Panel #2 -->
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="feature-panel">
-                            <div class="feature--icon">
-                                <i class="flaticon-crane"></i>
-                            </div>
-                            <div class="feature--content">
-                                <h3>Prace żelbetowe</h3>
-                                <p>Wykonujemy wszelkie prace żelbetowe, takie jak: fundamenty, stropy, ściany, słupy,
-                                    belki, balkony, tarasy, podjazdy, rampy czy też podciągi. Zapytaj nas o szczegóły !
-                                </p>
-                            </div>
-                        </div>
-                        <!-- .feature-panel end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-
-                    <!-- Panel #3 -->
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="feature-panel">
-                            <div class="feature--icon">
-                                <i class="flaticon-helmet"></i>
-                            </div>
-                            <div class="feature--content">
-                                <h3>stany surowe</h3>
-                                <p>Wszelkie prace prowadzące do wykonania stanu surowego otwartego. Położenie
-                                    fundamentów, postawienie ścian nośnych oraz ułożenie stropów. Wewnątrz budynków
-                                    oczywiście wymurujemy ścianki działowe.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- .feature-panel end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-
-                    <!-- Panel #4 -->
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="feature-panel">
-                            <div class="feature--icon">
-                                <i class="flaticon-skyline"></i>
-                            </div>
-                            <div class="feature--content">
-                                <h3>Konstrukcje dachowe</h3>
-                                <p>Wykonujemy od podstaw więźby tradycyjne, jak i stawiamy konstrukcje z więźby
-                                    prefabrykowanej. Mamy ogromne doświadczenie w kryciu dachu blachodachówką jak i
-                                    dachówką ceramiczną. W zakresie swoich usług mamy również stropodachy czyli dachy
-                                    płaskie.</p>
-                            </div>
-                        </div>
-                        <!-- .feature-panel end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-                </div>
-                <!-- .row end -->
+              </div>
+              <!-- .col-md-10 end -->
             </div>
-            <!-- .container end -->
-        </section>
-        <!-- #feature  end -->
-
-        <!-- skills
+            <!-- .row end -->
+          </div>
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #hero12 end -->
+      <!-- Feature #1 
 ============================================= -->
-        <section id="skills" class="section skills skills-1 bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-5">
-                        <div class="heading mb-30">
-                            <h2 class="heading--title">Jesteśmy ekspertami w naszej dziedzinie już od ponad 25 lat</h2>
-                            <p class="heading--desc">Naszym atutem w kontaktach z klientami są elastyczność i ogromna
-                                wiedza, które w połączeniu z przyjazną atmosferą są kluczem do sukcesu. Kompleksowa
-                                obsługa klienta na każdym etapie zagwarantuje sukces każdej inwestycji.</p>
-                        </div>
-                    </div>
-                    <!-- .col-md-6 end -->
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
-                        <!-- Progressbar #1 -->
-                        <div class="progressbar">
-                            <div class="progress-title">
-                                <span class="title">Roboty Ziemne</span>
-                                <span class="value">85%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div><!-- .progressbar end -->
-
-                        <!-- Progressbar #2 -->
-                        <div class="progressbar">
-                            <div class="progress-title">
-                                <span class="title">Prace Żelbetowe</span>
-                                <span class="value">75%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div><!-- .progressbar end -->
-
-                        <!-- Progressbar #3 -->
-                        <div class="progressbar">
-                            <div class="progress-title">
-                                <span class="title">Stany surowe</span>
-                                <span class="value">80%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div><!-- .progressbar end -->
-
-                        <!-- Progressbar #3 -->
-                        <div class="progressbar">
-                            <div class="progress-title">
-                                <span class="title">Konstrukcje dachowe</span>
-                                <span class="value">75%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div><!-- .progressbar end -->
-                    </div>
-                    <!-- .col-md-6 end -->
-                </div>
-                <!-- .row end -->
+      <section
+        id="feature"
+        class="section feature feature-1 bg-white text-center"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+              <div class="heading mb-70">
+                <h2 class="heading--title">Nasze usługi</h2>
+                <p class="heading--subtitle">
+                  Nasza firma remontowo-budowlana specjalizuje się w budowaniu
+                  domów od podstaw do stanu surowego. Zakres usług jest szeroki
+                  i obejmuje między innymi:
+                </p>
+              </div>
             </div>
-            <!-- .container end -->
-        </section>
-        <!-- #skills end -->
-
-
-        <!-- Portfolio #1
-============================================= -->
-        <section id="portfolio" class="section portfolio portfolio-grid portfolio-2 pb-70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-                        <div class="heading text-center mb-70">
-                            <h2 class="heading--title">Realizacje</h2>
-                            <p class="heading--desc">Przedstawiamy niektóre z prac które zrealizowaliśmy na przestrzeni
-                                ostatnich lat</p>
-                        </div>
-                    </div>
-                    <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+          <div class="row">
+            <!-- Panel #1 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="feature-panel">
+                <div class="feature--icon">
+                  <i class="flaticon-excavator"></i>
                 </div>
-                <!-- .row end -->
-                <div class="row">
-                    <!-- Projects Filter
+                <div class="feature--content">
+                  <h3>Roboty ziemne</h3>
+                  <p>
+                    Przygotowanie terenu pod budowę domu lub hali. Wykopy
+                    fundamentowe z wykorzystaniem specjalistycznego sprzętu.
+                    Niwelowanie lub skarpowanie terenu wokół stawianej budowli.
+                    Wykonujemy zarówno zdjęcie warstwy wierzchniej jak i
+                    dowiezienie ziemi.
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #2 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="feature-panel">
+                <div class="feature--icon">
+                  <i class="flaticon-crane"></i>
+                </div>
+                <div class="feature--content">
+                  <h3>Prace żelbetowe</h3>
+                  <p>
+                    Wykonujemy wszelkie prace żelbetowe, takie jak: fundamenty,
+                    stropy, ściany, słupy, belki, balkony, tarasy, podjazdy,
+                    rampy czy też podciągi. Zapytaj nas o szczegóły !
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #3 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="feature-panel">
+                <div class="feature--icon">
+                  <i class="flaticon-helmet"></i>
+                </div>
+                <div class="feature--content">
+                  <h3>stany surowe</h3>
+                  <p>
+                    Wszelkie prace prowadzące do wykonania stanu surowego
+                    otwartego. Położenie fundamentów, postawienie ścian nośnych
+                    oraz ułożenie stropów. Wewnątrz budynków oczywiście
+                    wymurujemy ścianki działowe.
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #4 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="feature-panel">
+                <div class="feature--icon">
+                  <i class="flaticon-skyline"></i>
+                </div>
+                <div class="feature--content">
+                  <h3>Konstrukcje dachowe</h3>
+                  <p>
+                    Wykonujemy od podstaw więźby tradycyjne, jak i stawiamy
+                    konstrukcje z więźby prefabrykowanej. Mamy ogromne
+                    doświadczenie w kryciu dachu blachodachówką jak i dachówką
+                    ceramiczną. W zakresie swoich usług mamy również stropodachy
+                    czyli dachy płaskie.
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #feature  end -->
+
+      <!-- skills
+============================================= -->
+      <section id="skills" class="section skills skills-1 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-5">
+              <div class="heading mb-30">
+                <h2 class="heading--title">
+                  Jesteśmy ekspertami w naszej dziedzinie już od ponad 25 lat
+                </h2>
+                <p class="heading--desc">
+                  Naszym atutem w kontaktach z klientami są elastyczność i
+                  ogromna wiedza, które w połączeniu z przyjazną atmosferą są
+                  kluczem do sukcesu. Kompleksowa obsługa klienta na każdym
+                  etapie zagwarantuje sukces każdej inwestycji.
+                </p>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
+              <!-- Progressbar #1 -->
+              <div class="progressbar">
+                <div class="progress-title">
+                  <span class="title">Roboty Ziemne</span>
+                  <span class="value">85%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- .progressbar end -->
+
+              <!-- Progressbar #2 -->
+              <div class="progressbar">
+                <div class="progress-title">
+                  <span class="title">Prace Żelbetowe</span>
+                  <span class="value">75%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- .progressbar end -->
+
+              <!-- Progressbar #3 -->
+              <div class="progressbar">
+                <div class="progress-title">
+                  <span class="title">Stany surowe</span>
+                  <span class="value">80%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- .progressbar end -->
+
+              <!-- Progressbar #3 -->
+              <div class="progressbar">
+                <div class="progress-title">
+                  <span class="title">Konstrukcje dachowe</span>
+                  <span class="value">75%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- .progressbar end -->
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #skills end -->
+
+      <!-- Portfolio #1
+============================================= -->
+      <section
+        id="portfolio"
+        class="section portfolio portfolio-grid portfolio-2 pb-70"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+              <div class="heading text-center mb-70">
+                <h2 class="heading--title">Realizacje</h2>
+                <p class="heading--desc">
+                  Przedstawiamy niektóre z prac które zrealizowaliśmy na
+                  przestrzeni ostatnich lat
+                </p>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+          <div class="row">
+            <!-- Projects Filter
 			============================================= -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 portfolio-filter">
-                        <ul class="list-inline">
-                            <li><a class="active-filter" href="#" data-filter="*">Wszystkie</a></li>
-                            <li><a href="#" data-filter=".filter-building">Stany surowe</a></li>
-                            <li><a href="#" data-filter=".filter-construction">Konstrukcje żelbetowe</a></li>
-                            <li><a href="#" data-filter=".filter-planning">Remonty</a></li>
-                        </ul>
-                    </div>
-                    <!-- .projects-filter end -->
-                </div>
-                <!-- .row end -->
-                <div id="portfolio-all" class="row">
-                    <!-- Portfolio Item #1 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/1.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/1.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Stany surowe</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #2 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-planning">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/2.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/2.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Remonty</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #3 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-planning">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/3.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/3.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Remonty</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #4 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/4.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/4.jpg"></a>
-                                    </div>
-                                    <h6>Stany surowe</h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #5 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/5.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/5.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #6 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/6.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/6.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #7 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/7.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/7.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #8 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/8.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/8.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-
-                    <!-- Portfolio Item #9 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/9.jpg" alt="portfolio image" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/full/9.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Stany surowe</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-                    <!-- .portfolio-item end -->
-                </div>
-                <!-- .row end -->
+            <div class="col-xs-12 col-sm-12 col-md-12 portfolio-filter">
+              <ul class="list-inline">
+                <li>
+                  <a class="active-filter" href="#" data-filter="*"
+                    >Wszystkie</a
+                  >
+                </li>
+                <li>
+                  <a href="#" data-filter=".filter-building">Stany surowe</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".filter-construction"
+                    >Konstrukcje żelbetowe</a
+                  >
+                </li>
+                <li><a href="#" data-filter=".filter-planning">Remonty</a></li>
+              </ul>
             </div>
-            <!-- .container end -->
-        </section>
-        <!-- #portfolio1 end -->
+            <!-- .projects-filter end -->
+          </div>
+          <!-- .row end -->
+          <div id="portfolio-all" class="row">
+            <!-- Portfolio Item #1 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/1.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/1.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Stany surowe</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
 
+            <!-- Portfolio Item #2 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-planning"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/2.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/2.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Remonty</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
 
-        <!-- cta2 
+            <!-- Portfolio Item #3 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-planning"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/3.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/3.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Remonty</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #4 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/4.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/4.jpg"
+                      ></a>
+                    </div>
+                    <h6>Stany surowe</h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #5 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/5.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/5.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #6 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/6.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/6.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #7 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/7.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/7.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #8 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/8.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/8.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Konstrukcje żelbetowe</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #9 -->
+            <div
+              class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/9.jpg"
+                  alt="portfolio image"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/full/9.jpg"
+                      ></a>
+                    </div>
+                    <h6><a href="#">Stany surowe</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #portfolio1 end -->
+
+      <!-- cta2 
 ============================================= -->
-        <section id="cta2" class="section cta cta-2 bg-theme">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="text-center">
-                            <h3>Innowacyjna firma korzystająca z nowoczesnych technologii</h3>
-                        </div>
-                        <!-- <div class="pull-right text-right">
+      <section id="cta2" class="section cta cta-2 bg-theme">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="text-center">
+                <h3>
+                  Innowacyjna firma korzystająca z nowoczesnych technologii
+                </h3>
+              </div>
+              <!-- <div class="pull-right text-right">
                     <a class="btn btn--white btn--bordered btn--rounded" href="#">Get A Quote</a>
                 </div> -->
-                    </div>
-                    <!-- .col-md-8 end -->
-                </div>
-                <!-- .row end -->
             </div>
-            <!-- .container end -->
-        </section>
+            <!-- .col-md-8 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
 
-        <!-- Testimonials #5
+      <!-- Testimonials #5
 ============================================= -->
-        <section id="testimonials" class="section testimonials testimonials-5 bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-sm-offset-3">
-                        <div class="heading text-center mb-70">
-                            <h2 class="heading--title">Referencje</h2>
-                            <p class="heading--desc">Certyfikaty ukończenia szkoleń z zastosowania technologii
-                                budowlanych oraz listy referencyjne od inwestorów.</p>
-                        </div>
+      <section
+        id="testimonials"
+        class="section testimonials testimonials-5 bg-gray"
+      >
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-sm-offset-3"
+            >
+              <div class="heading text-center mb-70">
+                <h2 class="heading--title">Referencje</h2>
+                <p class="heading--desc">
+                  Certyfikaty ukończenia szkoleń z zastosowania technologii
+                  budowlanych oraz listy referencyjne od inwestorów.
+                </p>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+          <div class="row">
+            <div
+              class="col-xs-12 col-sm-3 col-md-3 portfolio-item filter-testimonials col-md-offset-2"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/testimonials/cert-piechowski.jpg"
+                  alt="testimonials"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/testimonials/cert-piechowski.jpg"
+                      ></a>
                     </div>
-                    <!-- .col-md-6 end -->
+                    <h6><a href="#">Certyfikaty i rekomendacje</a></h6>
+                  </div>
                 </div>
-                <!-- .row end -->
-                <div class="row">
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
 
-                    <div class="col-xs-12 col-sm-3 col-md-3 portfolio-item filter-testimonials col-md-offset-2">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/testimonials/cert-piechowski.jpg"
-                                alt="testimonials" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/testimonials/cert-piechowski.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Certyfikaty i rekomendacje</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
+            <div
+              class="col-xs-12 col-sm-3 col-md-3 portfolio-item filter-testimonials"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/testimonials/rekomendacja-piechowski.jpg"
+                  alt="testimonials"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/testimonials/rekomendacja-piechowski.jpg"
+                      ></a>
                     </div>
+                    <h6><a href="#">Certyfikaty i rekomendacje</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
 
-                    <div class="col-xs-12 col-sm-3 col-md-3 portfolio-item filter-testimonials">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/testimonials/rekomendacja-piechowski.jpg"
-                                alt="testimonials" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/testimonials/rekomendacja-piechowski.jpg"></a>
-                                    </div>
-                                    <h6><a href="#">Certyfikaty i rekomendacje</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
+            <div
+              class="col-xs-12 col-sm-3 col-md-3 portfolio-item filter-testimonials"
+            >
+              <div class="portfolio--img">
+                <img
+                  src="assets/images/portfolio/constructions/testimonials/archimedes-rekomendacja.JPG"
+                  alt="testimonials"
+                />
+                <div class="portfolio--hover">
+                  <div class="portfolio--meta">
+                    <div class="portfolio--zoom">
+                      <a
+                        class="img-gallery-item"
+                        href="assets/images/portfolio/constructions/testimonials/archimedes-rekomendacja.JPG"
+                      ></a>
                     </div>
+                    <h6><a href="#">Certyfikaty i rekomendacje</a></h6>
+                  </div>
+                </div>
+                <!-- .portfolio-hover end -->
+              </div>
+              <!-- .portfolio-img end -->
+            </div>
 
-                    <div class="col-xs-12 col-sm-3 col-md-3 portfolio-item filter-testimonials">
-                        <div class="portfolio--img">
-                            <img src="assets/images/portfolio/constructions/testimonials/archimedes-rekomendacja.JPG"
-                                alt="testimonials" />
-                            <div class="portfolio--hover">
-                                <div class="portfolio--meta">
-                                    <div class="portfolio--zoom">
-                                        <a class="img-gallery-item" href="assets/images/portfolio/constructions/testimonials/archimedes-rekomendacja.JPG"></a>
-                                    </div>
-                                    <h6><a href="#">Certyfikaty i rekomendacje</a></h6>
-                                </div>
-                            </div>
-                            <!-- .portfolio-hover end -->
-                        </div>
-                        <!-- .portfolio-img end -->
-                    </div>
-
-
-                    <!-- Testimonial #1
+            <!-- Testimonial #1
                      <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="testimonial-panel">
                             <div class="testimonial--meta-img">
@@ -581,8 +765,8 @@
                         </div>
                     </div>
                      .col-md-6 end -->
-                    <!-- Testimonial #2 -->
-                    <!-- <div class="col-xs-12 col-sm-6 col-md-6">
+            <!-- Testimonial #2 -->
+            <!-- <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="testimonial-panel">
                             <div class="testimonial--meta-img">
                                 <img src="assets/images/testimonials/4.jpg" alt="author image">
@@ -598,99 +782,112 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- .col-md-6 end -->
-                </div>
-                <!-- .row end -->
-            </div>
-            <!-- .container end -->
-        </section>
-        <!-- #testimonials5 end -->
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #testimonials5 end -->
 
-        <!-- Google Maps
+      <!-- Google Maps
 ============================================= -->
-        <section id="map" class="section google-maps pb-0 pt-0">
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12  col-sm-12  col-md-12 pr-0 pl-0">
-                        <!-- <script src="https://maps.google.com/maps/api/js?&amp;key=AIzaSyASz66Ov8MBftUkdm84V9bRUrfim68QLew"></script> -->
-
-                        <script async defer
-                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASz66Ov8MBftUkdm84V9bRUrfim68QLew&callback=initMap">
-                        </script>
-
-                        <div id="googleMap" class="googleMap" style="width:100%;height:370px;">
-                        </div>
-                    </div>
-                </div>
+      <section id="map" class="section google-maps pb-0 pt-0">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 pr-0 pl-0" align="center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2398.1913337978995!2d18.5771443158274!3d53.05286947991863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4703347316f52461%3A0xb4464d93139ba8f0!2sSadowa%2034%2C%2087-100%20Toru%C5%84!5e0!3m2!1spl!2spl!4v1618749461750!5m2!1spl!2spl"
+                width="80%"
+                height="370px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <!-- <div
+            id="googleMap"
+            class="googleMap"
+            data-map-address="121 King St,Melbourne, Australia"
+            data-map-zoom="12"
+            data-map-type="ROADMAP"
+            data-map-info="Enormous Company<br>info@zytheme.com"
+            style="width: 100%; height: 370px"
+          ></div> -->
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- .google-maps end -->
 
-        </section>
-        <!-- .google-maps end -->
-
-        <!-- Footer #9
+      <!-- Footer #9
 ============================================= -->
-        <footer id="footer9" class="footer footer-5 footer-8 footer-9 bg-white text-center-xs pt-0 pb-0">
-            <div class="footer-widget">
-                <div class="container">
-                    <div class="row widget--boxes text-center">
-                        <div class="col-xs-12 col-sm-3 col-md-3">
-                            <div class="widget--info-box">
-                                <i class="ti-home"></i>
-                                <h4>Adres</h4>
-                                <p>ul. Sadowa 34<br>87-100 Toruń</p>
-                            </div>
-                            <!-- .widget-info-box end -->
-                        </div>
-                        <!-- .col-md-4 end -->
-                        <div class="col-xs-12 col-sm-3 col-md-3">
-                            <div class="widget--info-box">
-                                <a href="tel:608208238">
-                            <i class="ti-mobile"></i>
-                            <h4>Telefon</h4>
-                            <p>608-208-238</p>
-                        </a>
-                            </div>
-                            <!-- .widget-info-box end -->
-                        </div>
-                        <!-- .col-md-4 end -->
-                        <div class="col-xs-12 col-sm-3 col-md-3">
-                            <div class="widget--info-box">
-                                <a href="mailto:piech21@wp.pl">
-                            <i class="ti-email"></i>
-                            <h4>Email</h4>
-                            <p>piech21@wp.pl</p>
-                        </a>
-                            </div>
-                            <!-- .widget-info-box end -->
-                        </div>
-                        <div class="col-xs-12 col-sm-3 col-md-3">
-                            <div class="widget--info-box">
-                                <a href="https://www.facebook.com/piechowskitorun" target="blank">
-                            <i class="fa fa-facebook-f"></i>
-                            <h4>Facebook</h4>
-                            <p>Funpage</p>
-                        </a>
-                            </div>
-                            <!-- .widget-info-box end -->
-                        </div>
-                        <!-- .col-md-4 end -->
-                    </div>
-                    <!-- .row end -->
+      <footer
+        id="footer9"
+        class="footer footer-5 footer-8 footer-9 bg-white text-center-xs pt-0 pb-0"
+      >
+        <div class="footer-widget">
+          <div class="container">
+            <div class="row widget--boxes text-center">
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="widget--info-box">
+                  <i class="ti-home"></i>
+                  <h4>Adres</h4>
+                  <p>ul. Sadowa 34<br />87-100 Toruń</p>
                 </div>
-                <!-- .container end -->
+                <!-- .widget-info-box end -->
+              </div>
+              <!-- .col-md-4 end -->
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="widget--info-box">
+                  <a href="tel:608208238">
+                    <i class="ti-mobile"></i>
+                    <h4>Telefon</h4>
+                    <p>608-208-238</p>
+                  </a>
+                </div>
+                <!-- .widget-info-box end -->
+              </div>
+              <!-- .col-md-4 end -->
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="widget--info-box">
+                  <a href="mailto:piech21@wp.pl">
+                    <i class="ti-email"></i>
+                    <h4>Email</h4>
+                    <p>piech21@wp.pl</p>
+                  </a>
+                </div>
+                <!-- .widget-info-box end -->
+              </div>
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="widget--info-box">
+                  <a
+                    href="https://www.facebook.com/piechowskitorun"
+                    target="blank"
+                  >
+                    <i class="fa fa-facebook-f"></i>
+                    <h4>Facebook</h4>
+                    <p>Funpage</p>
+                  </a>
+                </div>
+                <!-- .widget-info-box end -->
+              </div>
+              <!-- .col-md-4 end -->
             </div>
-            <!-- .footer-widget end -->
-            <div class="footer-bar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                            <div class="widget--copyright">
-                                <span>&copy; Zytheme 2019, All Rights Reserved.</span>
-                            </div>
-                        </div>
-                        <!-- .col-md-6 end -->
-                        <!-- <div class="col-xs-12 col-sm-6 col-md-6">
+            <!-- .row end -->
+          </div>
+          <!-- .container end -->
+        </div>
+        <!-- .footer-widget end -->
+        <div class="footer-bar">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <div class="widget--copyright">
+                  <span>&copy; Zytheme 2019, All Rights Reserved.</span>
+                </div>
+              </div>
+              <!-- .col-md-6 end -->
+              <!-- <div class="col-xs-12 col-sm-6 col-md-6">
                             <div class="widget--social text-right text-center-xs">
                                 <a class="facebook" href="#">
                             <i class="fa fa-facebook-f"></i>
@@ -706,16 +903,15 @@
                         </a>
                             </div>
                         </div> -->
-                        <!-- .col-md-6 end -->
-                    </div>
-                    <!-- .row end -->
-                </div>
-                <!-- .container end -->
+              <!-- .col-md-6 end -->
             </div>
-            <!-- .footer bar end -->
-        </footer>
-        <!-- #footer9 end -->
-
+            <!-- .row end -->
+          </div>
+          <!-- .container end -->
+        </div>
+        <!-- .footer bar end -->
+      </footer>
+      <!-- #footer9 end -->
     </div>
     <!-- #wrapper end -->
 
@@ -724,8 +920,5 @@
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/functions.js"></script>
-
-
-</body>
-
+  </body>
 </html>
